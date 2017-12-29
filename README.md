@@ -15,6 +15,6 @@ Run `npm run serve`.
 
 ## The JavaScript way
 
-- HTML page loads `handlebars-latest.js` from CDN.
+- HTML page loads `handlebars.js` from CDN.
 - HTML page loads `template.txt` via HTTP.
 - Renders page and displays it into `#content`.
