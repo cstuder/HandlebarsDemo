@@ -1,0 +1,5 @@
+{
+    "require": {
+        "xamin/handlebars.php": "^0.10.4"
+    }
+}

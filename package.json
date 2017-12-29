@@ -1,0 +1,10 @@
+{
+  "name": "handlebarsdemo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "serve": "php -S localhost:8000 -t www"
+  },
+  "author": "Christian Studer",
+  "license": "MIT"
+}
