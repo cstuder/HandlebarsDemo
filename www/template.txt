@@ -1,1 +1,13 @@
-Hallo Welt.
+<h1>Hallo Guru!</h1>
+
+<p>Status: {{status}}
+<p>Aktuelle Aaretemperatur: {{aare.temperature}} <em>({{aare.temperature_text}})</em>
+<p>Gibt's gar nicht: "{{lasdjflkasdjflkasjdflkasdjfl}}"
+
+<h2>Listen loopen</h2>
+
+<ul>
+{{#each weather.forecast}}
+<li>Am {{day}} wird es {{tx}}° warm.</li>
+{{/each}}
+</ul>

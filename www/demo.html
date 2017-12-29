@@ -9,12 +9,15 @@
             $(function() {
                 // Get data
                 $.getJSON('https://aareguru.existenz.ch/currentV2.php', function(data) {
+
                     // Get template
                     $.get('template.txt', function(template) {
+                        
                         // Render with handlebars
                         var handlebarTemplate = Handlebars.compile(template);
                         var content = handlebarTemplate(data);
 
+                        // Output HTML
                         $('body').html(content);
                     })
                 })
