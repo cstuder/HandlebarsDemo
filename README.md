@@ -1,6 +1,6 @@
 # HandlebarsDemo
 
-The PHP way: <http://localhost:8000/demo.php<>
+The PHP way: <http://localhost:8000/demo.php>
 
 The JavaScript way: <http://localhost:8000/demo.html>
 
@@ -17,4 +17,4 @@ Run `npm run serve`.
 
 - HTML page loads `handlebars.js` from CDN.
 - HTML page loads `template.txt` via HTTP.
-- Renders page and displays it into `#content`.
+- Renders page and displays it into `body`.
