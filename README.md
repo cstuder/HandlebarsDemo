@@ -4,11 +4,11 @@ The PHP way: <http://localhost:8000/demo.php>
 
 The JavaScript way: <http://localhost:8000/demo.html>
 
-## Development
+## Development
 
 Run `npm run serve`.
 
-## The PHP way
+## The PHP way
 
 - Composer installed package `xamin/handlebars.php`
 - `demo.php` fetches data, opens `template.txt` and renders with Handlebars
